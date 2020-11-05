@@ -1,0 +1,430 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  background-color: #f7f7f7;
+}
+html {
+  font-size: 62.5%;
+  font-family: "Poppins", sans-serif;
+  font-family: "Open Sans", sans-serif;
+  margin: 0 auto;
+  overflow-x: hidden;
+  position: relative;
+}
+
+.Home {
+  min-height: 100vh;
+  width: 70%;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: relative;
+}
+
+.text {
+  font-size: 3rem;
+  color: #464866;
+  line-height: 1.4;
+}
+.text span {
+  color: #4484ab;
+}
+.text h2 {
+  font-family: "Open Sans", sans-serif;
+}
+
+.text h1 {
+  font-family: "Poppins", sans-serif;
+}
+
+.text h3 {
+  font-family: "Open Sans", sans-serif;
+  font-weight: lighter;
+  margin-bottom: 60px;
+}
+
+.text a {
+  font-family: "Poppins", sans-serif;
+  font-size: 2rem;
+  padding: 20px 50px;
+  border-radius: 20px;
+  background-color: #4484ab;
+  color: #f7f7f7;
+  text-decoration: none;
+}
+.text a:hover {
+  background-color: #464866;
+}
+
+.img {
+  width: 300px;
+  z-index: 10;
+  border-radius: 50%;
+  border: 10px solid #4484ab;
+}
+
+.pattern {
+  position: absolute;
+  top: 0px;
+  left: 1300px;
+}
+/*--------------------------SECTION ABOUT-------------------------*/
+
+#page2 {
+  min-width: 100%;
+  background-color: #efefef;
+}
+.about {
+  min-height: 60vh;
+  width: 70%;
+  margin: 0 auto;
+  background-color: #efefef;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.bio {
+  font-size: 3rem;
+  color: #464866;
+  background-color: #efefef;
+  font-family: "Open Sans", sans-serif;
+  width: 50%;
+}
+
+.bio h2 {
+  background-color: #efefef;
+}
+
+.bio p {
+  font-size: 2rem;
+  font-weight: 300;
+  padding: 20px 0px 60px 0px;
+  background-color: #efefef;
+}
+
+.bio a {
+  width: fit-content;
+  font-family: "Poppins", sans-serif;
+  font-size: 1.5rem;
+  padding: 15px 30px;
+  border-radius: 10px;
+  background-color: #4484ab;
+  color: #f7f7f7;
+  text-decoration: none;
+}
+.bio a:hover {
+  background-color: #464866;
+}
+.skill {
+  width: 20%;
+  display: flex;
+  position: relative;
+  background-color: #efefef;
+}
+
+.skill p {
+  font-weight: 400;
+  font-size: 2rem;
+  background-color: #efefef;
+  color: #464866;
+}
+.txt1 {
+  position: absolute;
+  top: 200px;
+  left: 90px;
+}
+.txt2 {
+  position: absolute;
+  top: 295px;
+  left: 90px;
+}
+.txt3 {
+  position: absolute;
+  top: 390px;
+  left: 90px;
+}
+/*---------------------SVG ANIMATION & PROPERTIES----------------------*/
+.skill svg {
+  background-color: #efefef;
+}
+#icon1 {
+  animation: to-right 5s linear infinite 0.1ms;
+  transform-box: fill-box;
+  transform-origin: center;
+}
+#icon2 {
+  animation: to-left 5s linear infinite;
+  transform-box: fill-box;
+  transform-origin: center;
+}
+#icon3 {
+  animation: to-left 5s linear infinite;
+  transform-box: fill-box;
+  transform-origin: center;
+}
+#icon4 {
+  animation: to-right 5s linear infinite;
+  transform-box: fill-box;
+  transform-origin: center;
+}
+@keyframes to-right {
+  from {
+    transform: rotateZ(0deg);
+  }
+  to {
+    transform: rotateZ(360deg);
+  }
+}
+@keyframes to-left {
+  from {
+    transform: rotateZ(0deg);
+  }
+  to {
+    transform: rotateZ(-360deg);
+  }
+}
+
+/*--------------------------SECTION WHAT I DO-------------------------*/
+#page3 {
+  min-width: 100%;
+  background-color: #f7f7f7;
+}
+.what-i-do {
+  min-height: 80vh;
+  width: 70%;
+  margin: 0 auto;
+  padding: 150px 0px;
+}
+h1 {
+  font-size: 4.5rem;
+  color: #464866;
+  margin-bottom: 80px;
+}
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.box1,
+.box2,
+.box3 {
+  width: 50%;
+  padding: 40px 50px 100px 50px;
+  display: flex;
+  flex-direction: column;
+}
+.box1,
+.box2 {
+  border-bottom: 1px solid #e5e2e2;
+}
+.box1,
+.box3 {
+  border-right: 1px solid #e5e2e2;
+}
+
+.content1,
+.content2,
+.content3 {
+  display: flex;
+  align-items: center;
+  margin-bottom: 30px;
+}
+
+.what-i-do p {
+  font-weight: light;
+  font-size: 2rem;
+  color: #464866;
+}
+
+.what-i-do h2 {
+  font-weight: 400;
+  font-size: 3rem;
+  color: #464866;
+  padding-left: 10px;
+}
+/*--------------------------------------------CONTACT--------------------------*/
+#page4 {
+  min-width: 100%;
+  background-color: #efefef;
+}
+.contact {
+  min-height: 40vh;
+  width: 70%;
+  margin: 0 auto;
+  background-color: #efefef;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding: 50px 0px;
+}
+.contact img {
+  background-color: #efefef;
+}
+.contact h1 {
+  background-color: #efefef;
+  margin: 0px 0px;
+  padding: 10px 0px 5px 0px;
+}
+.contact p {
+  font-size: 2.5rem;
+  font-weight: lighte;
+  font-family: "Lato", sans-serif;
+  background-color: #efefef;
+  margin: 0px 0px;
+  padding: 20px 0px;
+  text-align: center;
+}
+.contact a {
+  width: fit-content;
+  font-family: "Poppins", sans-serif;
+  font-size: 1.5rem;
+  padding: 10px 25px;
+  border-radius: 10px;
+  background-color: #4484ab;
+  color: #f7f7f7;
+  text-decoration: none;
+}
+.contact a:hover {
+  background-color: #464866;
+}
+
+/*--------------------------------------------Footer------------------------------------------*/
+
+#page5 {
+  min-width: 100%;
+  background-color: #f7f7f7;
+}
+.footer {
+  min-height: 30vh;
+  width: 100%;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.footer p {
+  font-size: 1.5rem;
+  font-weight: 300;
+  font-family: "Lato", sans-serif;
+  margin: 0px 0px;
+  padding: 20px 0px;
+  text-align: center;
+}
+.footer a {
+  margin: 0px 3px;
+  border: 1px solid #efefef;
+}
+/*--------------FOOTER ICONS ANIMATION------------------*/
+
+.f-box svg {
+  transition: 0.3s ease-in-out;
+  animation: change;
+  background-color: #464866;
+  /*box-shadow: 0px 15px 20px grey;*/
+}
+
+.f-box svg.face:hover {
+  transform: scale(1.2);
+  fill: #1877f2;
+}
+.f-box svg.twitter:hover {
+  transform: scale(1.2);
+  fill: #50abf1;
+}
+
+.f-box svg.linkedin:hover {
+  transform: scale(1.2);
+  fill: #0077b5;
+}
+.f-box svg.github:hover {
+  transform: scale(1.2);
+  fill: #1a1e22;
+}
+.f-box svg.gmail:hover {
+  transform: scale(1.2);
+  fill: #e34133;
+}
+
+/*------------------------Media Quari------------------------------*/
+
+@media (max-width: 800px) {
+  .Home {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column-reverse;
+  }
+  .text {
+    font-size: 2rem;
+    color: #464866;
+    line-height: 1.2;
+  }
+  .text h1 {
+    margin: 5px 0px;
+  }
+  .text h3 {
+    margin-bottom: 50px;
+  }
+
+  .Home .img {
+    width: 200px;
+  }
+  .text a {
+    font-family: "Poppins", sans-serif;
+    font-size: 1.5rem;
+    padding: 15px 25px;
+    border-radius: 10px;
+  }
+
+  /*------------------page 2---------------*/
+
+  .about {
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    margin: 0 auto;
+  }
+  .bio {
+    width: 100%;
+  }
+
+  .skill {
+    width: 100%;
+    margin: 100px 0px;
+  }
+  .skill p {
+    font-size: 2.7rem;
+  }
+
+  /*-----------------page 3-----------------*/
+  .what-i-do {
+    width: 90%;
+    margin: 0 auto;
+    padding: 100px 0px 50px 0px;
+    display: flex;
+    flex-direction: column;
+  }
+  .box1,
+  .box2,
+  .box3 {
+    width: 100%;
+    padding: 40px 0px 100px 0px;
+    border: none;
+  }
+  .what-i-do h2 {
+    font-weight: 400;
+    font-size: 2.5rem;
+    color: #464866;
+    padding-left: 10px;
+  }
+  /*-----------------page 4-----------------*/
+  .contact h1 {
+    text-align: center;
+    font-size: 4.5rem;
+    line-height: 1;
+  }
+}
