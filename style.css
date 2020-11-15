@@ -358,6 +358,12 @@ h1 {
     justify-content: space-around;
     flex-direction: column-reverse;
   }
+  .img {
+    width: 200px;
+    z-index: 10;
+    border-radius: 50%;
+    border: 10px solid #4484ab;
+  }
   .text {
     font-size: 2rem;
     color: #464866;
