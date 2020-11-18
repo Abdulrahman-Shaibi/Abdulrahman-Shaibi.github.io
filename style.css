@@ -96,6 +96,7 @@ html {
 
 .bio h2 {
   background-color: #efefef;
+  font-size: 3.5rem;
 }
 
 .bio p {
@@ -199,7 +200,7 @@ html {
   padding: 150px 0px;
 }
 h1 {
-  font-size: 4.5rem;
+  font-size: 3.5rem;
   color: #464866;
   margin-bottom: 80px;
 }
@@ -246,8 +247,136 @@ h1 {
   color: #464866;
   padding-left: 10px;
 }
-/*--------------------------------------------CONTACT--------------------------*/
+/*--------------------------------------------skills & experience-------------------------*/
 #page4 {
+  min-width: 100%;
+  background-color: #efefef;
+}
+.experience {
+  min-height: 80vh;
+  width: 60%;
+  margin: 0 auto;
+  background-color: #efefef;
+  padding: 150px 0px;
+}
+.exp-title h1 {
+  background-color: #efefef;
+  font-size: 3.5rem;
+}
+.experience p {
+  font-weight: lighter;
+  font-size: 2rem;
+  background-color: #efefef;
+}
+.exp-container {
+  padding: 0px 40px;
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  background-color: #efefef;
+}
+.exp-container h2 {
+  font-size: 2.5rem;
+  font-weight: 550;
+  color: #464866;
+  padding: 50px 0px;
+  background-color: #efefef;
+}
+
+.box-item {
+  display: flex;
+  padding: 6px 0px;
+  background-color: #efefef;
+}
+.box-item img {
+  padding-left: 15px;
+  background-color: #efefef;
+}
+/*------------------------------------projects I’ve Built--------------------------*/
+
+#page5 {
+  min-width: 100%;
+  background-color: #f7f7f7;
+}
+.projects {
+  min-height: 40vh;
+  width: 60%;
+  margin: 0 auto;
+  padding: 50px 0px;
+  color: #464866;
+}
+.pro-container,
+.pro-container2,
+.pro-container3 {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.pro-box1 {
+  max-width: 20%;
+}
+.pro-box1 h2 {
+  font-size: 2.5rem;
+  font-weight: 500;
+}
+.pro-box1 p {
+  font-size: 1.5rem;
+  font-weight: lighter;
+  padding: 15px 0px 10px 0px;
+}
+.pro-box1 a {
+  font-size: 1.2rem;
+  padding-left: 20px;
+  text-decoration: none;
+  font-weight: bold;
+  color: #4484ab;
+}
+.pro-box1 a:hover sub {
+  padding-left: 15px;
+  transition: all 150ms ease-in-out;
+}
+/*------------------------------------projects I’ve Built #page 6--------------------------*/
+#page6 {
+  min-width: 100%;
+  background-color: #efefef;
+}
+
+#page6 .projects {
+  min-height: 40vh;
+  width: 60%;
+  margin: 0 auto;
+  padding: 50px 0px;
+  background-color: #efefef;
+  display: flex;
+}
+#page6 .pro-container2 {
+  background-color: #efefef;
+}
+#page6 .pro-box1,
+#page6 h2,
+#page6 p,
+#page6 a {
+  background-color: #efefef;
+}
+#page6 .pro-box2,
+#page6 .pro-box2 img {
+  background-color: #efefef;
+}
+/*------------------------------------projects I’ve Built #page 7--------------------------*/
+#page7 {
+  min-width: 100%;
+}
+
+#page7 .projects {
+  min-height: 40vh;
+  width: 60%;
+  margin: 0 auto;
+  padding: 50px 0px;
+  display: flex;
+}
+
+/*--------------------------------------------CONTACT--------------------------*/
+#page8 {
   min-width: 100%;
   background-color: #efefef;
 }
@@ -295,7 +424,7 @@ h1 {
 
 /*--------------------------------------------Footer------------------------------------------*/
 
-#page5 {
+#page9 {
   min-width: 100%;
   background-color: #f7f7f7;
 }
