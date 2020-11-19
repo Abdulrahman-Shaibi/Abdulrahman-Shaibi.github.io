@@ -272,6 +272,7 @@ h1 {
   padding: 0px 40px;
   display: flex;
   align-items: flex-start;
+  flex-wrap: wrap;
   justify-content: space-between;
   background-color: #efefef;
 }
@@ -279,7 +280,7 @@ h1 {
   font-size: 2.5rem;
   font-weight: 550;
   color: #464866;
-  padding: 50px 0px;
+  padding: 50px 0px 15px 0px;
   background-color: #efefef;
 }
 
@@ -335,6 +336,7 @@ h1 {
   padding-left: 15px;
   transition: all 150ms ease-in-out;
 }
+
 /*------------------------------------projects I’ve Built #page 6--------------------------*/
 #page6 {
   min-width: 100%;
@@ -347,7 +349,6 @@ h1 {
   margin: 0 auto;
   padding: 50px 0px;
   background-color: #efefef;
-  display: flex;
 }
 #page6 .pro-container2 {
   background-color: #efefef;
@@ -372,7 +373,6 @@ h1 {
   width: 60%;
   margin: 0 auto;
   padding: 50px 0px;
-  display: flex;
 }
 
 /*--------------------------------------------CONTACT--------------------------*/
@@ -488,7 +488,9 @@ h1 {
     flex-direction: column-reverse;
   }
   .img {
-    width: 200px;
+    width: 100%;
+
+    /* width: 200px;  ----- old setting view for the image  */
     z-index: 10;
     border-radius: 50%;
     border: 10px solid #4484ab;
@@ -556,7 +558,49 @@ h1 {
     color: #464866;
     padding-left: 10px;
   }
+
   /*-----------------page 4-----------------*/
+
+  .experience {
+    min-height: 80vh;
+    width: 90%;
+    margin: 0 auto;
+    background-color: #efefef;
+    padding: 100px 0px;
+  }
+  .experience h1 {
+    font-size: 3rem;
+    margin-bottom: 40px;
+  }
+
+  /*-----------------page 5-----------------*/
+
+  .projects,
+  #page6 .projects,
+  #page7 .projects {
+    min-height: 40vh;
+    width: 90%;
+    margin: 0 auto;
+    padding: 50px 0px;
+    color: #464866;
+  }
+
+  .pro-container,
+  .pro-container2,
+  .pro-container3 {
+    flex-direction: column-reverse;
+    width: 100%;
+  }
+
+  .pro-box1 {
+    max-width: 70%;
+  }
+
+  .projects img {
+    width: 275px;
+  }
+
+  /*-----------------page 8-----------------*/
   .contact h1 {
     text-align: center;
     font-size: 4.5rem;
