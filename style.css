@@ -308,7 +308,8 @@ h1 {
 }
 .pro-container,
 .pro-container2,
-.pro-container3 {
+.pro-container3,
+.pro-container4 {
   display: flex;
   align-items: center;
   justify-content: space-around;
@@ -375,10 +376,38 @@ h1 {
   padding: 50px 0px;
 }
 
-/*--------------------------------------------CONTACT--------------------------*/
+/*------------------------------------projects I’ve Built #page 8--------------------------*/
 #page8 {
   min-width: 100%;
   background-color: #efefef;
+}
+
+#page8 .projects {
+  min-height: 40vh;
+  width: 60%;
+  margin: 0 auto;
+  padding: 50px 0px;
+  background-color: #efefef;
+}
+#page8 .pro-container4 {
+  background-color: #efefef;
+}
+#page8 .pro-box1,
+#page8 h2,
+#page8 p,
+#page8 a {
+  background-color: #efefef;
+}
+#page8 .pro-box2,
+#page8 .pro-box2 img {
+  background-color: #efefef;
+}
+
+/*--------------------------------------------CONTACT--------------------------*/
+#page9 {
+  min-width: 100%;
+  background-color: #efefef;
+  margin-top: 100px;
 }
 .contact {
   min-height: 40vh;
@@ -424,12 +453,12 @@ h1 {
 
 /*--------------------------------------------Footer------------------------------------------*/
 
-#page9 {
+#page10 {
   min-width: 100%;
   background-color: #f7f7f7;
 }
 .footer {
-  min-height: 30vh;
+  min-height: 20vh;
   width: 100%;
   margin: 0 auto;
   display: flex;
@@ -577,9 +606,10 @@ h1 {
 
   .projects,
   #page6 .projects,
-  #page7 .projects {
+  #page7 .projects,
+  #page8 .projects {
     min-height: 40vh;
-    width: 90%;
+    width: 100%;
     margin: 0 auto;
     padding: 50px 0px;
     color: #464866;
@@ -587,7 +617,8 @@ h1 {
 
   .pro-container,
   .pro-container2,
-  .pro-container3 {
+  .pro-container3,
+  .pro-container4 {
     flex-direction: column-reverse;
     width: 100%;
   }
