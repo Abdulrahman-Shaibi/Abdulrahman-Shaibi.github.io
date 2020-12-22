@@ -403,8 +403,45 @@ h1 {
   background-color: #efefef;
 }
 
-/*--------------------------------------------CONTACT--------------------------*/
+/*--------------------------------Other Project--------------------------*/
 #page9 {
+  min-width: 100%;
+}
+#page9.projects {
+  min-height: 40vh;
+  width: 100%;
+  margin: 0 auto;
+  padding: 50px 0px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.other-projects p {
+  font-size: 20px;
+  font-weight: lighter;
+  margin-bottom: 20px;
+}
+.other-projects span {
+  font-size: 16px;
+  color: #4484ab;
+  border: 1px solid #4484ab;
+  padding: 2px;
+  border-radius: 5px;
+  margin-right: 3px;
+}
+.other-projects a {
+  font-size: 1.2rem;
+  padding-left: 20px;
+  text-decoration: none;
+  font-weight: bold;
+  color: #4484ab;
+}
+.other-projects a:hover sub {
+  padding-left: 15px;
+  transition: all 150ms ease-in-out;
+}
+/*--------------------------------------------CONTACT--------------------------*/
+#page10 {
   min-width: 100%;
   background-color: #efefef;
   margin-top: 100px;
@@ -453,7 +490,7 @@ h1 {
 
 /*--------------------------------------------Footer------------------------------------------*/
 
-#page10 {
+#page11 {
   min-width: 100%;
   background-color: #f7f7f7;
 }
@@ -607,11 +644,12 @@ h1 {
   .projects,
   #page6 .projects,
   #page7 .projects,
-  #page8 .projects {
+  #page8 .projects,
+  #page9 .projects {
     min-height: 40vh;
     width: 100%;
     margin: 0 auto;
-    padding: 50px 0px;
+    padding: 50px 10px;
     color: #464866;
   }
 
