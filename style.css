@@ -26,23 +26,25 @@ html {
 .text {
   font-size: 3rem;
   color: #464866;
-  line-height: 1.4;
+  line-height: 1;
 }
 .text span {
   color: #4484ab;
 }
 .text h2 {
-  font-family: "Open Sans", sans-serif;
+  font-family: "poppins", sans-serif;
+  font-size: 40px;
 }
 
 .text h1 {
   font-family: "Poppins", sans-serif;
+  margin-bottom: 20px;
 }
 
 .text h3 {
   font-family: "Open Sans", sans-serif;
   font-weight: lighter;
-  margin-bottom: 60px;
+  margin-bottom: 30px;
 }
 
 .text a {
@@ -407,14 +409,15 @@ h1 {
 #page9 {
   min-width: 100%;
 }
-#page9.projects {
+#page9 .projects {
   min-height: 40vh;
-  width: 100%;
+  width: 50%;
   margin: 0 auto;
   padding: 50px 0px;
   display: flex;
   align-items: center;
   justify-content: center;
+  flex-direction: column;
 }
 .other-projects p {
   font-size: 20px;
