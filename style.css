@@ -106,6 +106,7 @@ html {
   background-color: #efefef;
   font-family: "Open Sans", sans-serif;
   width: 50%;
+  margin-top: 50px;
 }
 
 .bio h2 {
@@ -611,6 +612,7 @@ h1 {
   }
   .bio {
     width: 100%;
+    margin-top: 100px;
   }
 
   .skill {
