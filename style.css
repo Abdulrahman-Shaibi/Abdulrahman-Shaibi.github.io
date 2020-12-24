@@ -11,6 +11,7 @@ html {
   margin: 0 auto;
   overflow-x: hidden;
   position: relative;
+  scroll-behavior: smooth;
 }
 
 .Home {
@@ -47,17 +48,28 @@ html {
   margin-bottom: 30px;
 }
 
+.text .btns {
+  display: flex;
+  align-items: center;
+}
+.text .btn:nth-child(2) {
+  margin-left: 10px;
+}
+
 .text a {
   font-family: "Poppins", sans-serif;
-  font-size: 2rem;
-  padding: 20px 50px;
-  border-radius: 20px;
-  background-color: #4484ab;
-  color: #f7f7f7;
+  font-size: 1.5rem;
+  padding: 10px 17px;
+  border-radius: 9px;
+  border: 1px solid #4484ab;
+  background-color: #f7f7f7;
+  color: #4484ab;
   text-decoration: none;
 }
+
 .text a:hover {
-  background-color: #464866;
+  background-color: #4484ab;
+  color: #efefef;
 }
 
 .img {
