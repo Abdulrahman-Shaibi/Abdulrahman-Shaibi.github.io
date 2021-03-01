@@ -4,12 +4,13 @@ const phrases = ['my name is Abdulrahman Shaibi.', 'Im a web developer.', 'also 
 let i = 0
 let j = 0
 let currentPhrase = []
-let deletPhrase = false
+let deletePhrase = false
 let isEnd = false
+
 
 function loop () {
   isEnd = false
-  if(i < phrases.lenght) {
+  if(i < phrases.length) {
     textDisplay.innerHTML = currentPhrase.join('')
 
     if(!deletePhrase && j <= phrases[i].length) {
@@ -45,4 +46,4 @@ function loop () {
   setTimeout(loop, time)
 }
 
-loop.call()
+loop.call();
