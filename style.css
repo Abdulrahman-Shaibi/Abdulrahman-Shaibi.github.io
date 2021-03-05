@@ -560,6 +560,44 @@ h1 {
   padding-left: 0;
 }
 
+.appConceptList {
+  margin-bottom: 170px;
+}
+
+.showcase1 {
+  width: 40%;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.showcase1 .role:last-of-type {
+  padding-right: 0px;
+}
+
+.showcase1 .role .title {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.showcase1 .role h2 {
+  padding-left: 15px;
+  font-size: 20px;
+}
+
+.showcase1 .role p {
+  padding-left: 36px;
+  font-size: 15px;
+  font-weight: lighter;
+}
+
+.showcase1 .role {
+  color: whitesmoke;
+}
+
 /*--------------------------------------------CONTACT--------------------------*/
 #page10 {
   min-width: 100%;
