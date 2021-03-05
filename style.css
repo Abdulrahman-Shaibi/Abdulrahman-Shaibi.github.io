@@ -2,12 +2,11 @@
   padding: 0;
   margin: 0;
   box-sizing: border-box;
-  background-color: #f7f7f7;
 }
 html {
   font-size: 62.5%;
-  font-family: "Poppins", sans-serif;
-  font-family: "Open Sans", sans-serif;
+  font-family: 'Poppins', sans-serif;
+  font-family: 'Open Sans', sans-serif;
   margin: 0 auto;
   overflow-x: hidden;
   position: relative;
@@ -33,17 +32,17 @@ html {
   color: #4484ab;
 }
 .text h2 {
-  font-family: "poppins", sans-serif;
+  font-family: 'poppins', sans-serif;
   font-size: 40px;
 }
 
 .text h1 {
-  font-family: "Poppins", sans-serif;
+  font-family: 'Poppins', sans-serif;
   margin-bottom: 20px;
 }
 
 .text h3 {
-  font-family: "Open Sans", sans-serif;
+  font-family: 'Open Sans', sans-serif;
   font-weight: lighter;
   margin-bottom: 30px;
 }
@@ -57,7 +56,7 @@ html {
 }
 
 .text a {
-  font-family: "Poppins", sans-serif;
+  font-family: 'Poppins', sans-serif;
   font-size: 1.5rem;
   padding: 10px 17px;
   border-radius: 9px;
@@ -104,7 +103,7 @@ html {
   font-size: 3rem;
   color: #464866;
   background-color: #efefef;
-  font-family: "Open Sans", sans-serif;
+  font-family: 'Open Sans', sans-serif;
   width: 50%;
   margin-top: 50px;
 }
@@ -123,7 +122,7 @@ html {
 
 .bio a {
   width: fit-content;
-  font-family: "Poppins", sans-serif;
+  font-family: 'Poppins', sans-serif;
   font-size: 1.5rem;
   padding: 15px 30px;
   border-radius: 10px;
@@ -432,6 +431,10 @@ h1 {
   justify-content: center;
   flex-direction: column;
 }
+.other-projects h1 {
+  font-size: 25px;
+  margin-bottom: 10px;
+}
 .other-projects p {
   font-size: 20px;
   font-weight: lighter;
@@ -456,6 +459,107 @@ h1 {
   padding-left: 15px;
   transition: all 150ms ease-in-out;
 }
+/*--------------------------------------Graphic Design--------------------------*/
+#GraphicD {
+  min-width: 100%;
+  background-color: #727272;
+}
+
+#GraphicD .GD {
+  background-color: #727272;
+  min-height: 40vh;
+  width: 75%;
+  margin: 0 auto;
+  padding: 50px 0px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.GD h1 {
+  color: whitesmoke;
+  margin-bottom: 80px;
+}
+
+.GD p {
+  color: whitesmoke;
+  font-size: 20px;
+  font-weight: lighter;
+  text-align: center;
+}
+.GD p:nth-of-type(2) {
+  padding: 20px 0 20px 0;
+}
+
+.GD img {
+  width: 100%;
+  max-width: 700px;
+  min-width: 150px;
+  margin: 150px 0 100px 0;
+}
+.GD h1:nth-of-type(2) {
+  margin-bottom: 30px;
+}
+.GD h2 {
+  margin-bottom: 10px;
+  font-size: 22px;
+  font-weight: normal;
+  color: whitesmoke;
+}
+
+.GD .title {
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: center;
+  justify-content: center;
+}
+
+.GD p {
+  padding-left: 18px;
+}
+
+.GD .title span {
+  font-size: 13px;
+  color: #feb03c;
+  border: 1px solid #feb03c;
+  padding: 2px 5px;
+  border-radius: 5px;
+}
+.GD span:nth-of-type(2) {
+  margin-right: 10px;
+  margin-left: 10px;
+}
+
+.GD .title {
+  margin-bottom: 60px;
+}
+.appConcept {
+  width: 70%;
+  margin: 0 auto;
+}
+
+.appConcept p {
+  text-align: left;
+  margin-bottom: 50px;
+  padding-left: 0;
+}
+
+.appConcept span,
+.appConceptList span {
+  font-weight: bold;
+}
+
+.appConceptList {
+  width: 55%;
+  margin: 0 auto;
+}
+
+.appConceptList p {
+  text-align: left;
+  padding-left: 0;
+}
+
 /*--------------------------------------------CONTACT--------------------------*/
 #page10 {
   min-width: 100%;
@@ -484,7 +588,7 @@ h1 {
 .contact p {
   font-size: 2.5rem;
   font-weight: lighte;
-  font-family: "Lato", sans-serif;
+  font-family: 'Lato', sans-serif;
   background-color: #efefef;
   margin: 0px 0px;
   padding: 20px 0px;
@@ -492,7 +596,7 @@ h1 {
 }
 .contact a {
   width: fit-content;
-  font-family: "Poppins", sans-serif;
+  font-family: 'Poppins', sans-serif;
   font-size: 1.5rem;
   padding: 10px 25px;
   border-radius: 10px;
@@ -521,7 +625,7 @@ h1 {
 .footer p {
   font-size: 1.5rem;
   font-weight: 300;
-  font-family: "Lato", sans-serif;
+  font-family: 'Lato', sans-serif;
   margin: 0px 0px;
   padding: 20px 0px;
   text-align: center;
@@ -596,7 +700,7 @@ h1 {
     margin-bottom: 10px;
   }
   .text .btns a {
-    font-family: "Poppins", sans-serif;
+    font-family: 'Poppins', sans-serif;
     font-size: 1.4rem;
     padding: 10px 15px;
     border-radius: 10px;

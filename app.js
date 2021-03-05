@@ -1,3 +1,5 @@
+
+// Type Writer Animation
 const textDisplay = document.getElementById('text')
 const phrases = ['my name is Abdulrahman Shaibi.', 'Im a web developer.', 'also a web designer.']
 
@@ -47,3 +49,5 @@ function loop () {
 }
 
 loop.call();
+
+//===========================
