@@ -759,7 +759,10 @@ h1 {
 }
 
 .showbox img {
-  max-width: 50%;
+  width: 100%;
+  max-width: 700px;
+  min-width: 150px;
+  margin: 70px 0;
 }
 
 .svgView {
@@ -1053,6 +1056,10 @@ h1 {
     line-height: 1;
   }
   /*-----------------Graphic Design-----------------*/
+  #GraphicD {
+    width: 90%;
+  }
+
   #GraphicD .GD {
     width: 90%;
     margin: 0 auto;
@@ -1164,5 +1171,70 @@ h1 {
   #GraphicD .insights {
     width: 90%;
     margin: 0 auto;
+  }
+  .insights .goal p {
+    margin: 0;
+  }
+
+  .goalList {
+    width: 80%;
+  }
+  .sketchView {
+    margin-bottom: 80px;
+  }
+
+  .showbox {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin-bottom: 100px;
+  }
+  .showbox .goal {
+    width: 100%;
+    padding-bottom: 50px;
+  }
+  .showbox .goal h1 {
+    width: 100%;
+    align-items: left;
+    justify-content: start;
+  }
+  .showbox .goal h2 {
+    font-size: 30px;
+  }
+  .showbox .goal p {
+    padding-left: 0px;
+  }
+  .showbox img {
+    width: 100%;
+    max-width: 700px;
+    min-width: 150px;
+  }
+  .showbox img {
+    margin: 0 auto;
+    margin-bottom: 50px;
+    margin-top: 10px;
+  }
+  .svgView {
+    width: 90%;
+    margin: 0 auto;
+    margin-bottom: 100px;
+  }
+
+  .feedback {
+    width: 90%;
+  }
+  .feedback .goal {
+    width: 100%;
+    margin: 0 auto;
+  }
+
+  .feedback .goal p:first-of-type {
+    margin: auto;
+    width: 100%;
+  }
+  .feedback .goal p:last-of-type {
+    margin: auto;
+    width: 85%;
+    padding-bottom: 20px;
   }
 }
