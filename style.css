@@ -775,11 +775,47 @@ h1 {
   margin: 0 auto;
 }
 
+.feedback {
+  width: 65%;
+  margin: 0 auto;
+}
+
+.feedback .goal hr {
+  width: 100%;
+  height: 7px;
+  border-bottom: 10px solid #feb03c;
+  margin-bottom: 20px;
+}
+
+.feedback .goal p {
+  font-size: 20px;
+  font-weight: lighter;
+  color: whitesmoke;
+  text-align: center;
+  margin: 0 auto;
+}
+
+.feedback .goal p:first-of-type {
+  width: 80%;
+  padding-bottom: 50px;
+  font-size: 25px;
+}
+
+.feedback .goal p:last-of-type {
+  width: 60%;
+  font-size: 18px;
+  padding-bottom: 100px;
+}
+
+.feedback .goal p:last-of-type a {
+  font-weight: bold;
+  color: whitesmoke;
+}
+
 /*--------------------------------------------CONTACT--------------------------*/
 #page10 {
   min-width: 100%;
   background-color: #efefef;
-  margin-top: 100px;
 }
 .contact {
   min-height: 40vh;
